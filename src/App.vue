@@ -1,12 +1,11 @@
 <template>
-  <div id="app" class="d-flex flex-row">
-    <aside class="navigation-wrapper">
-      <div id="nav">
-        <router-link to="/">Home</router-link> |
-        <router-link to="/about">About</router-link>
-      </div>
-    </aside>
-    <div class="notebook h-100">
+  <div id="app">
+    <div class="navigation-wrapper">
+      <menu-header></menu-header>
+      <menu-navigation></menu-navigation>
+      <!-- footer nav -->
+    </div>
+    <div class="notebook">
       <section class="notebook-header">
         <h5>What seperates me</h5>
       </section>
@@ -16,6 +15,19 @@
     </div>
   </div>
 </template>
+
+<script>
+import MenuHeader from './components/MenuHeader.vue'
+import MenuNavigation from './components/MenuNavigation.vue'
+
+export default {
+  name: 'App',
+  components: {
+    MenuNavigation,
+    MenuHeader
+  }
+}
+</script>
 
 <style>
 #app {
@@ -28,13 +40,17 @@
   height: 100vh;
   padding: 1rem 7rem .5rem 3rem;
   overflow: hidden;
+  display: flex;
+  flex-direction: row;
 }
 
 .navigation-wrapper{
   background-color: #797a7e;
   width: 300px;
   height: 100%;
-  margin-right: 1rem;;
+  margin-right: 1rem;
+  border-radius: 5px;
+  padding-left: .5rem;
 }
 
 .notebook{
@@ -48,22 +64,7 @@
 
 .notebook-content{
   background-color: #f7f2e7;
-  /* calculation: container - (header + natural div padding which must be .25) */
   height: calc(100% - 1.75rem);
   overflow: auto;
-  /* potentially add shawdows here for stacked paper looking affect */
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #d8d3cd;
-}
-
-#nav a.router-link-exact-active {
-  color: #e0ece4;
 }
 </style>
