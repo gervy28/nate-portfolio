@@ -38,11 +38,12 @@ export default {
 
 .nav-link:hover {
   font-weight: bold;
-
+  color: #0275d8;
 }
 
 .router-link-exact-active {
   color: #e0ece4;
   font-weight: bold;
+  color: #0275d8;
 }
 </style>

@@ -38,3 +38,14 @@ d8d3cd
 ### Built With
 
 Bootstrap Vue - I give this two thumbs down, totally lacks the ability to customize easily
+
+
+### Site Improvements:
+>*Entire Site: Make all text filled with data rather than hard coded, then can easily use Axios to connect backend data
+>*Entire Site:
+>>*Allow scrollable of entire view below 430 pixels
+>>*font colors could be more universally described
+>*Sidebar
+>>*Breakpoint @ 968
+>>*Menu Footer: 
+>>>*Excellent place for a suite of tests to determine if the links work and produce a URL directing towards the right site

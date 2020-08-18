@@ -1,9 +1,7 @@
 <template>
   <div id="app">
     <div class="navigation-wrapper">
-      <menu-header></menu-header>
-      <menu-navigation></menu-navigation>
-      <!-- footer nav -->
+      <menu-container></menu-container>
     </div>
     <div class="notebook">
       <section class="notebook-header">
@@ -17,14 +15,12 @@
 </template>
 
 <script>
-import MenuHeader from './components/MenuHeader.vue'
-import MenuNavigation from './components/MenuNavigation.vue'
+import MenuContainer from './components/MenuContainer.vue'
 
 export default {
   name: 'App',
   components: {
-    MenuNavigation,
-    MenuHeader
+    MenuContainer
   }
 }
 </script>
@@ -50,7 +46,6 @@ export default {
   height: 100%;
   margin-right: 1rem;
   border-radius: 5px;
-  padding-left: .5rem;
 }
 
 .notebook{
@@ -66,5 +61,9 @@ export default {
   background-color: #f7f2e7;
   height: calc(100% - 1.75rem);
   overflow: auto;
+}
+
+a{
+  color: #d8d3cd;
 }
 </style>
