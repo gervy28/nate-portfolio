@@ -1,6 +1,6 @@
 <template>
 <div class="">
-  <div class="border p-1 m-1">
+  <div class="border border-dark p-1 m-1">
     <slot></slot>
   </div>
 </div>
