@@ -3,7 +3,6 @@
   <b-card
     :title="cardInfo.title"
     tag="article"
-    style="max-width: 90%; margin: 5px auto;"
     class="mb-2"
   >
     <b-card-text>

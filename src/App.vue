@@ -8,7 +8,7 @@
         <h5>What seperates me</h5>
       </section>
       <section class="notebook-content">
-        <router-view/>
+        <router-view></router-view>
       </section>
     </div>
   </div>

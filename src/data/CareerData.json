@@ -13,5 +13,61 @@
             "subtitle":"Frequently Used Tools",
             "skills":["Microsoft Excel", "G-Suite","Google Domains","Amazon Vendor Central", "Amazon Seller Central", "Siteground", "Elementor", "WordPress Administration","HubSpot", "QuickBooks", "Amazon Brand Pages", "Amazon A+ Pages"]
         }
-    }
+    },
+    "Projects":[
+        {
+            "id": 1,
+            "title":"Yellowstone Pavement Solutions",
+            "images":[
+                {"name":"yps-start.png"}, 
+                {"name":"yps-1.jpg"}, 
+                {"name":"yps-2.jpg"}
+            ],
+            "subtitle": "Co-Owner, Feb. 2018 - May 2020",
+            "description": "At YPS I was exposed to a wide variety tasks and situations",
+            "accomplishments":[
+                {
+                    "id": 1,
+                    "bolded":"Over $750,000 across 2 Years",
+                    "details": "my business partner and I started with $0 in revenue and created a comfortable busienss in just two years"
+                },
+                {
+                    "id": 2,
+                    "bolded":"Developed A JavaScript Chrome Extension",
+                    "details": "I saw a need and an opportunity within our company to implement software to improve operational efficiency so I made it."
+                },
+                {
+                    "id": 3,
+                    "bolded":"",
+                    "details": ""
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title":"Revo Brand Group",
+            "images":[
+                {"name":"real-avid-logo.png"}
+            ],
+            "subtitle": "Marketing Analyst, July 2016 - Feb. 2018",
+            "description": "Though employeed by Revo Brand Group, I worked for Real Avid. This was an incredible growing company",
+            "accomplishments":[
+                {
+                    "id": 1,
+                    "bolded":"Researched and Optimized Product Descriptions",
+                    "details": "the marketing was essential... "
+                },
+                {
+                    "id": 2,
+                    "bolded":"Designed and Launched Amazon A+ Pages",
+                    "details": "some more infor goes here"
+                },
+                {
+                    "id": 3,
+                    "bolded":"Designed and Launched Amazon A+ Pages",
+                    "details": "more stuff here.. "
+                }
+            ]
+        }
+    ]
 } 

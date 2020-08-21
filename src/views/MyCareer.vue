@@ -1,25 +1,42 @@
 <template>
   <div>
     <h1 class="text-left m-2">My Career</h1>
-    <!-- pass through career card object #1 -->
-    <skills-card v-bind:cardInfo = 'primaryCard'>
-    </skills-card>
+    <!-- should create an array of cards to loop over, or array of sections -->
+    <div class="px-5">
+      <!-- pass through career card object #1 -->
+      <skills-card v-bind:cardInfo = 'primaryCard'>
+      </skills-card>
+      <div class="d-flex">
+        <project-card v-for='(project, index) in projects'
+          :key = 'project.id'
+          :index = 'index'
+          :projectInfo="project"></project-card>
+      </div>
+    </div>
+    <hr class="m-2">
+    <div class="px-5">
+      <skills-card v-bind:cardInfo = 'secondaryCard'>
+      </skills-card>
+    </div>
   </div>
 </template>
 
 <script>
 import SkillsCard from '../components/SkillsCard.vue'
+import ProjectCard from '../components/ProjectCard.vue'
 import CareerData from '../data/CareerData.json'
 
 export default {
   name: 'MenuContainer',
   components: {
-    SkillsCard
+    SkillsCard,
+    ProjectCard
   },
   data () {
     return {
       primaryCard: CareerData.SkillCards.PrimaryCard,
-      secondaryCard: CareerData.SkillCards.SecondaryCard
+      secondaryCard: CareerData.SkillCards.SecondaryCard,
+      projects: CareerData.Projects
     }
   }
 }
