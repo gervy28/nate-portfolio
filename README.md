@@ -21,6 +21,7 @@ This website is a very simple portfolio. If it isn't responsive already, it shou
 
 
 ### Site Improvements:
+>-.env : check this out - https://www.npmjs.com/package/dotenv; Google API key
 >-Entire Site: Make all text filled with data rather than hard coded, then can easily use Axios to connect backend data
 >-Repeated Imports On View Routers
 >-Entire Site:

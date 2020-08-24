@@ -27,7 +27,7 @@ import ProjectCard from '../components/ProjectCard.vue'
 import CareerData from '../data/CareerData.json'
 
 export default {
-  name: 'MenuContainer',
+  name: 'MyCareer',
   components: {
     SkillsCard,
     ProjectCard

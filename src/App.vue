@@ -5,7 +5,13 @@
     </div>
     <div class="notebook">
       <section class="notebook-header">
-        <h5>What seperates me</h5>
+        <h5>
+            <b-dropdown id="dropdown-1" text="Coding" class="m-md-2">
+              <b-dropdown-item active>Coding</b-dropdown-item>
+              <b-dropdown-item>Career</b-dropdown-item>
+              <b-dropdown-item>Details</b-dropdown-item>
+            </b-dropdown>
+            >> Top Skills > Projects | Developing Skills > Projects</h5>
       </section>
       <section class="notebook-content">
         <router-view></router-view>

@@ -1,4 +1,4 @@
 // vue.config.js
 module.exports = {
-    publicPath: '/nate-portfolio/'
+  publicPath: '/nate-portfolio/'
 }

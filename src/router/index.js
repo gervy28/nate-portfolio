@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Overview from '../views/Overview.vue'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 Vue.use(VueRouter)
@@ -8,15 +7,7 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'Overview',
-    component: Overview
-  },
-  {
-    path: '/my-coding',
-    name: 'MyCoding',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
+    name: 'my-coding',
     component: () => import(/* webpackChunkName: "about" */ '../views/MyCoding.vue')
   },
   {
