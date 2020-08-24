@@ -4,7 +4,7 @@
     <!-- should create an array of cards to loop over, or array of sections -->
     <div class="px-5">
       <!-- pass through career card object #1 -->
-      <skills-card v-bind:cardInfo = 'primaryCard'>
+      <skills-card v-bind:cardInfo = 'firstCard'>
       </skills-card>
       <div class="d-flex">
         <project-card v-for='(project, index) in projects'
@@ -15,7 +15,7 @@
     </div>
     <hr class="m-2">
     <div class="px-5">
-      <skills-card v-bind:cardInfo = 'secondaryCard'>
+      <skills-card v-bind:cardInfo = 'secondCard'>
       </skills-card>
     </div>
   </div>
@@ -34,8 +34,8 @@ export default {
   },
   data () {
     return {
-      primaryCard: CareerData.SkillCards.PrimaryCard,
-      secondaryCard: CareerData.SkillCards.SecondaryCard,
+      firstCard: CareerData.SkillCards.FirstCard,
+      secondCard: CareerData.SkillCards.SecondCard,
       projects: CareerData.Projects
     }
   }

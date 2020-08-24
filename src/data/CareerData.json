@@ -1,13 +1,13 @@
 
 {
     "SkillCards":{
-        "PrimaryCard":{
+        "FirstCard":{
             "title":"Professional Skills",
             "description":"Relative to most young professionals my age, I have a diverse set of expereinces and interests that have helped me build a wide variety of skills. I excel most in positions where I work directly with others. I have a very strong work ethic and leadership qualities.",
             "subtitle":"Most Frequently Used Skills",
             "skills":["Teamwork","Content Strategy","Leadership","Interpersonal Communication","Business Strategy", "Product Description Writing", "Content Writing","B2B Sales", "B2C Sales", "Marketing Strategy","Market Research"]
         },
-        "SecondaryCard":{
+        "SecondCard":{
             "title":"Tools & Technology",
             "description":"Throughout my career I have also had the opportunity to use a variety of technology tools. Most of these tools have helped me to drive efficiency within all companies I have been involved with",
             "subtitle":"Frequently Used Tools",

@@ -1,0 +1,172 @@
+
+{
+    "SkillCards":{
+        "FirstCard":{
+            "title":"Top Areas of Knowledge",
+            "description":"Everything that I have learned has been self-taught. I have a lot to learn still and look at any skill that I do have very humbly. I love desigining apps from start to finish and think I have unique perspectives on what data needs to be connected.",
+            "subtitle":"Top & Improving Skills",
+            "skills":["Vanilla JavaScript","HTML","CSS","Tailwind.css","Bootstrap", "BootstrapVue", "Laravel","PHP", "APIs", "Vue.js","OOP","Google Maps API","MySQL", "Git", "GitHub"]
+        },
+        "SecondCard":{
+            "title":"My Active Learning",
+            "description":"The reality is that the developer you talk to today, is not the developer that you will talk to tomorrow. I am constantly reading and learning and know that there is a vast pool of knowledge available. I truly believe that the largest asset I can provide you is my tenacity for leanrning and applying my learning.",
+            "subtitle":"Moderate and Growing Skills",
+            "skills":["TDD", "Algorithms","Data Structures","Node", "Design Patterns", "Continious Integration", "Computer Architecture"]
+        },
+        "ThirdCard":{
+            "title":"Areas I'm Very Excited About",
+            "description":"I wish I could put more into my previous card, but I can only learn so much at once. So, here are some other areas that I am very excited to learn more about.",
+            "subtitle":"Future Skills",
+            "skills":["GraphQL", "PWAs","Java", "Graph Databases", "Python", ""]
+        },
+        "FourthCard":{
+            "title":"My Favorite Resources",
+            "description":"I learn from many sources. Here are some of my favorites that really guide my thinking",
+            "subtitle":"Resources and People",
+            "skills":["Uncle Bob", "Clean Code","Udemy", "Medium", "Codewars", "Documentation", "FreeCode Camp", "Anki Flashcards", "YouTube: MIT & UC Berkley CS Lectures"]
+        }
+    },
+    "Projects":[
+        {
+            "id": 1,
+            "title":"Takeoff Tool",
+            "images":[
+                {"name":"yps-start.png"}, 
+                {"name":"yps-1.jpg"}, 
+                {"name":"yps-2.jpg"}
+            ],
+            "subtitle": "Measure Asphalt Square Footage Online",
+            "description": "Solved the business goal of taking quicker measurements of customer asphalt",
+            "accomplishments":[
+                {
+                    "id": 1,
+                    "bolded":"Vanilla JS, HTML, CSS & JSON",
+                    "details": "Small Program "
+                },
+                {
+                    "id": 2,
+                    "bolded":"Google Chrome Extension",
+                    "details": ""
+                },
+                {
+                    "id": 3,
+                    "bolded":"Google Maps API",
+                    "details": ""
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title":"Pupil.Academy",
+            "images":[
+                {"name":"real-avid-logo.png"}
+            ],
+            "subtitle": "Learn DIY Topics Faster",
+            "description": "This was a small project I did to practice Laravel, PHP, Vue.js and TDD",
+            "accomplishments":[
+                {
+                    "id": 1,
+                    "bolded":"Image Crop and Upload",
+                    "details": "Users can upload and crop ima"
+                },
+                {
+                    "id": 2,
+                    "bolded":"Designed and Launched Amazon A+ Pages",
+                    "details": "some more infor goes here"
+                },
+                {
+                    "id": 4,
+                    "bolded":"Designed and Launched Amazon A+ Pages",
+                    "details": "more stuff here.. "
+                },
+                {
+                    "id": 5,
+                    "bolded":"Designed and Launched Amazon A+ Pages",
+                    "details": "more stuff here.. "
+                },
+                {
+                    "id": 6,
+                    "bolded":"Designed and Launched Amazon A+ Pages",
+                    "details": "more stuff here.. "
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title":"Flashcards",
+            "images":[
+                {"name":"real-avid-logo.png"}
+            ],
+            "subtitle": "Get Vue Concepts Down",
+            "description": "A small project the integrates a timer with flashcards that demonstrates a variety of skills.",
+            "accomplishments":[
+                {
+                    "id": 1,
+                    "bolded":"Set, pause, restart, and update a timer",
+                    "details": "A unique way to demonstrate my ability to use JS methods within Vue."
+                },
+                {
+                    "id": 2,
+                    "bolded":"Review sets of flash cards",
+                    "details": "Review as many flashcards as the data provides, utilizes computed properties to show current counts"
+                },
+                {
+                    "id": 4,
+                    "bolded":"Deployed to SiteGround in CPanel",
+                    "details": "A static deploy to practice launching a static page to production"
+                },
+                {
+                    "id": 5,
+                    "bolded":"Animations that show the time has ended",
+                    "details": "Implemented to provide feedback to the user that the timer has completed"
+                },
+                {
+                    "id": 6,
+                    "bolded":"Type your answer and compare to the stored answer",
+                    "details": "Demonstrates simple logic to carry answers into a new view without destorying the stored data"
+                },
+                {
+                    "id": 7,
+                    "bolded":"Data Object Stored in JSON",
+                    "details": "Built intentionally to consume JSON to make it easier to consume an API in the future"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title":"This Portfolio",
+            "images":[
+                {"name":"real-avid-logo.png"}
+            ],
+            "subtitle": "Get Vue Concepts Down",
+            "description": "Applies best practices, uses the Vue Router and a fun way to show my growing skils",
+            "accomplishments":[
+                {
+                    "id": 1,
+                    "bolded":"Organized Well",
+                    "details": "I applied styling recomendations to get a more organized app."
+                },
+                {
+                    "id": 2,
+                    "bolded":"Navigate with the Vue Router",
+                    "details": "This one is simple, all navigation is done via the Vue Router"
+                },
+                {
+                    "id": 4,
+                    "bolded":"Learn BootstrapVue",
+                    "details": "This was my first app using BootstrapVue, I've grown to like it (somewhat!)"
+                },
+                {
+                    "id": 5,
+                    "bolded":"Deployed to GitHub",
+                    "details": "Uses a seperate branch to hold production code. A future improvement is tests and continious integration best practices"
+                },
+                {
+                    "id": 6,
+                    "bolded":"Google Maps API",
+                    "details": "A very basic Google Maps API use case"
+                }
+            ]
+        }
+    ]
+} 
