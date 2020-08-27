@@ -38,7 +38,7 @@ export default {
         lat: this.addressInfo.coordinates.lat,
         lng: this.addressInfo.coordinates.long
       },
-      apiKey: 'AIzaSyBilVkknWQSGcEw7ZQiwqhrJ6F_YJUKfTU',
+      apiKey: process.env.VUE_APP_GOOGLE_MAPS_API_KEY,
       map: null,
       google: null,
       marker: null
