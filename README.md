@@ -2,7 +2,7 @@
 This is an evolving project. If it doesn't look so good, I've sent it to you early in my job hunt!
 I launched this project as a way to practice Vue.JS and show some of my skills as a developer. 
 
-**Approximate Project Time:** 12 hours 
+**Approximate Project Time:** 13 hours 
 
 
 ### Site Improvements:
@@ -14,10 +14,6 @@ There is a lot to do to make this site better! And I will continue to improve ev
 >> - better wrapping on project cards
 >> - sidebar breakpoint @968
 
->**Improve Security and Reliability**
->> - Google maps API key not well hidden
->> - Implement a full suite of tests 
-
 >**Collaborate with a Designer**
 >> - I can't design well, I should get someone to help make it seem less plain
 
@@ -27,6 +23,10 @@ There is a lot to do to make this site better! And I will continue to improve ev
 >> - Create more detailed supporting pages that make it more blog like
 >> - Improve the overall documentation to help other developers use it
 >> - Turn into a YouTube tutorial on how to make a basic portfolio
+
+>**Improve Security and Reliability**
+>> - Implement a full suite of tests 
+>> - Create program for accessing API keys
 
 
 ### Color Palette

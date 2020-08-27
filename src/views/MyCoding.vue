@@ -7,15 +7,15 @@
       <skills-card v-bind:cardInfo = 'firstCard'>
       </skills-card>
       <hr class="m-2">
-      <skills-card v-bind:cardInfo = 'secondCard'>
-      </skills-card>
-      <hr class="m-2">
       <div class="d-flex">
         <project-card v-for='(project, index) in projects'
           :key = 'project.id'
           :index = 'index'
           :projectInfo="project"></project-card>
       </div>
+      <hr class="m-2">
+      <skills-card v-bind:cardInfo = 'secondCard'>
+      </skills-card>
       <hr class="m-2">
       <skills-card v-bind:cardInfo = 'thirdCard'>
       </skills-card>

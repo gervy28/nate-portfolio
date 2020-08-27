@@ -19,8 +19,6 @@
       <b-carousel-slide
         v-for="image in projectInfo.images"
         :key="image.name"
-        caption="The First Trip"
-        text="This was the begining of a strong relationship we built with our suppliers"
         :img-src="require('@/assets/' + image.name + '')"
       ></b-carousel-slide>
     </b-carousel>
