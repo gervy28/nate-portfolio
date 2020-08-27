@@ -1,9 +1,7 @@
 <template>
 <div class="custom">
   <nav class="navigation-menu">
-    <router-link to="/" class="nav-link">Overview</router-link>
-    <h6 class="navigation-seperator">Dive Deeper Into:</h6>
-    <router-link to="/my-coding" class="nav-link">My Coding</router-link>
+    <router-link to="/" class="nav-link">My Coding</router-link>
     <router-link to="/my-career" class="nav-link">My Career</router-link>
     <router-link to="/my-details" class="nav-link">My Details</router-link>
   </nav>

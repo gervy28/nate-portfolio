@@ -36,8 +36,4 @@ export default {
   display: flex;
   flex-direction: column;
 }
-
-.footer-container{
-
-}
 </style>

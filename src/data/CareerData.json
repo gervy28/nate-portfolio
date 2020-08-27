@@ -1,0 +1,73 @@
+
+{
+    "SkillCards":{
+        "FirstCard":{
+            "title":"Professional Skills",
+            "description":"Relative to most young professionals my age, I have a diverse set of expereinces and interests that have helped me build a wide variety of skills. I excel most in positions where I work directly with others. I have a very strong work ethic and leadership qualities.",
+            "subtitle":"Most Frequently Used Skills",
+            "skills":["Teamwork","Content Strategy","Leadership","Interpersonal Communication","Business Strategy", "Product Description Writing", "Content Writing","B2B Sales", "B2C Sales", "Marketing Strategy","Market Research"]
+        },
+        "SecondCard":{
+            "title":"Tools & Technology",
+            "description":"Throughout my career I have also had the opportunity to use a variety of technology tools. Most of these tools have helped me to drive efficiency within all companies I have been involved with",
+            "subtitle":"Frequently Used Tools",
+            "skills":["Microsoft Excel", "G-Suite","Google Domains","Amazon Vendor Central", "Amazon Seller Central", "Siteground", "Elementor", "WordPress Administration","HubSpot", "QuickBooks", "Amazon Brand Pages", "Amazon A+ Pages"]
+        }
+    },
+    "Projects":[
+        {
+            "id": 1,
+            "title":"Yellowstone Pavement Solutions",
+            "images":[
+                {"name":"yps-start.png"}, 
+                {"name":"yps-1.jpg"}, 
+                {"name":"yps-2.jpg"}
+            ],
+            "subtitle": "Co-Owner, Feb. 2018 - May 2020",
+            "description": "At YPS I was exposed to a wide variety tasks and situations",
+            "accomplishments":[
+                {
+                    "id": 1,
+                    "bolded":"Over $750,000 across 2 Years",
+                    "details": "my business partner and I started with $0 in revenue and created a comfortable busienss in just two years"
+                },
+                {
+                    "id": 2,
+                    "bolded":"Developed A JavaScript Chrome Extension",
+                    "details": "I saw a need and an opportunity within our company to implement software to improve operational efficiency so I made it."
+                },
+                {
+                    "id": 3,
+                    "bolded":"",
+                    "details": ""
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title":"Revo Brand Group",
+            "images":[
+                {"name":"real-avid-logo.png"}
+            ],
+            "subtitle": "Marketing Analyst, July 2016 - Feb. 2018",
+            "description": "Though employeed by Revo Brand Group, I worked for Real Avid. This was an incredible growing company",
+            "accomplishments":[
+                {
+                    "id": 1,
+                    "bolded":"Researched and Optimized Product Descriptions",
+                    "details": "the marketing was essential... "
+                },
+                {
+                    "id": 2,
+                    "bolded":"Designed and Launched Amazon A+ Pages",
+                    "details": "some more infor goes here"
+                },
+                {
+                    "id": 3,
+                    "bolded":"Designed and Launched Amazon A+ Pages",
+                    "details": "more stuff here.. "
+                }
+            ]
+        }
+    ]
+} 

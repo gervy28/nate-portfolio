@@ -5,10 +5,10 @@
     </div>
     <div class="notebook">
       <section class="notebook-header">
-        <h5>What seperates me</h5>
+        <h5> Discover what sets me apart:</h5>
       </section>
       <section class="notebook-content">
-        <router-view/>
+        <router-view></router-view>
       </section>
     </div>
   </div>
